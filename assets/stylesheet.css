@@ -6,3 +6,39 @@
     font-family: "roboto", sans-serif;
 }
 
+
+/* Header Styles */
+
+.header-wrapper {
+    width: 100%;
+    overflow:hidden;
+}
+
+.header-wrapper-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+.logo-wrapper img {
+    max-width: 80px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 400px;
+}
+
+.nav-links li, .nav-links a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* Hero Section */
+
+
+
